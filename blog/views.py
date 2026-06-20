@@ -1,4 +1,4 @@
 from django.http import HttpResponse
 
-def blog_home(request):
+def my_blog(request):
     return HttpResponse("Hello, blog!")
